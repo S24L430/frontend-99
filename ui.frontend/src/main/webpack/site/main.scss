@@ -38,8 +38,8 @@
 .image img.cmp-image__image {
   max-height: 500px;
   height: auto;
-  width: auto; // line causing Cumulative Layout Shift issue
-  //width: 100%; // line containing fix for Cumulative Layout Shift issue
+  //width: auto; // line causing Cumulative Layout Shift issue
+  width: 100%; // line containing fix for Cumulative Layout Shift issue
 }
 
 @media(max-width: 767px) {
